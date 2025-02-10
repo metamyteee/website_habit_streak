@@ -1,0 +1,146 @@
+
+:root {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --btn-bg: #333;
+}
+.light-mode {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --btn-bg: #ccc;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    margin:0px;
+}
+
+.crazy-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    top: -290px;
+    left: 130%;
+    transform: translateX(-50%);
+    width: 200%;
+    margin: 0;
+    padding:10px;
+    
+    
+}
+
+
+
+.container {
+    background: #2626a8c3;
+    padding: 30px;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.streak-container {
+    background: #1d1d5f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #f1c40f;
+}
+
+#theme-toggle {
+    position: absolute;
+    cursor: pointer;
+    background: var(--btn-bg);
+    border: none;
+    color: var(--text-color);
+    border-radius: 10px;
+    padding: 20px;
+    top: 10px;
+    left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.progress-container {
+    width: 100%;
+    background: #555;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 100%;
+    background: #4caf50;
+}
+
+.streak-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid white;
+    font-size: 1.2rem;
+}
+
+.medal {
+    font-size: 1.5rem;
+}
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 2px 6px; 
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.8rem; 
+}
+
+.remove-btn:hover {
+    background: darkred;
+}
+.crazy-title:hover {
+    color: #f1c40f; 
+    cursor: -webkit-grab;
+}
+
+
+
+
