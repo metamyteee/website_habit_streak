@@ -37,3 +37,10 @@ The **Habit Streak Counter** is a simple yet effective web application designed 
 ---
 Enjoy tracking your habits and staying consistent! ✅🔥
 
+
+![image](https://github.com/user-attachments/assets/a84a88ac-e7f3-404e-abca-cee44cfeed73)
+![image](https://github.com/user-attachments/assets/4d0c0431-3561-4ced-b390-1b57915b429b)
+![image](https://github.com/user-attachments/assets/74d1f62c-eadf-4109-b61c-10b9a48dac0a)
+
+
+
